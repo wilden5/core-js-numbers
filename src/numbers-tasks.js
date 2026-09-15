@@ -384,7 +384,7 @@ function toFixed(number, fractionDigits) {
  * 12.345, 4   => '12.35'
  */
 function toPrecision(number, precision) {
-  return number.toPrecision(precision);
+  Number(number.toPrecision(precision));
 }
 
 /**
